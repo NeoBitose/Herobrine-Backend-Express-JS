@@ -1,5 +1,3 @@
-Berikut adalah template README dalam bahasa Indonesia untuk backend aplikasi e-commerce yang kamu buat dengan Express.js:
-
 ---
 
 # 🛒 Backend Aplikasi E-Commerce
