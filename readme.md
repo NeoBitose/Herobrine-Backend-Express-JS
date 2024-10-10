@@ -1,7 +1,3 @@
-Berikut adalah template README dalam bahasa Indonesia untuk backend aplikasi e-commerce yang kamu buat dengan Express.js:
-
----
-
 # 🛒 Backend Aplikasi E-Commerce
 
 Selamat datang di **Backend Aplikasi E-Commerce**! Proyek ini merupakan latihan project untuk backend untuk platform e-commerce, menyediakan RESTful API yang kuat untuk mengelola produk, pengguna, pesanan, dan lainnya. Dibangun dengan **Express.js** dan terhubung ke database **MySQL**
@@ -13,7 +9,7 @@ Selamat datang di **Backend Aplikasi E-Commerce**! Proyek ini merupakan latihan 
 - **Manajemen Pesanan**: Pengguna dapat melakukan pemesanan, melihat riwayat pesanan, dan mengelola proses checkout.
 <!-- - **Sistem Keranjang Belanja**: Menambahkan, menghapus, dan memperbarui item dalam keranjang belanja. -->
 <!-- - **Integrasi Pembayaran**: Placeholder untuk integrasi gateway pembayaran (contohnya Stripe, PayPal). -->
-- **Rute Aman**: Autentikasi berbasis JWT untuk akses aman ke rute yang dilindungi.
+<!-- - **Rute Aman**: Autentikasi berbasis JWT untuk akses aman ke rute yang dilindungi. -->
 - **Penanganan Error**: Penanganan error yang kuat dan validasi untuk semua endpoint API.
 
 ## 🛠️ Teknologi yang Digunakan
@@ -39,13 +35,13 @@ Ikuti langkah-langkah di bawah ini untuk menyiapkan dan menjalankan proyek secar
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/username/ecommerce-backend.git
+   git clone https://github.com/NeoBitose/Herobrine-Backend-Express-JS.git
    ```
 
 2. Instal semua dependensi:
 
    ```bash
-   cd ecommerce-backend
+   cd Herobrine-Backend-Express-JS
    npm install
    ```
 
@@ -59,11 +55,11 @@ Ikuti langkah-langkah di bawah ini untuk menyiapkan dan menjalankan proyek secar
    DB_HOST=
    ```
 
-4. Siapkan database PostgreSQL dan jalankan migrasi:
+4. Siapkan database MySQL dan jalankan migrasi:
 
    ```bash
    npx sequelize db:create
-   npx sequelize db:migrate
+   lalu import terlebih dahulu sql di folder database
    npx sequelize db:seed:all
    ```
 
@@ -90,7 +86,7 @@ API akan tersedia di `http://localhost:3000`.
 | POST   | `/api/orders`        | Membuat pesanan baru               |
 | GET    | `/api/orders/:id`    | Mengambil detail pesanan tertentu  | -->
 
-Untuk dokumentasi lebih lengkap dari setiap endpoint, silakan merujuk ke koleksi Postman atau dokumentasi Swagger.
+Untuk dokumentasi lebih lengkap dari setiap endpoint, silakan merujuk ke koleksi Postman.
 
 ## 🤝 Kontribusi
 

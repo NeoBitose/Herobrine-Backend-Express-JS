@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "28c37900-ebe4-45e1-a36a-5622c17de1e5",
+		"name": "E-commerce Herobrine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19288796",
+		"_collection_link": "https://www.postman.com/alifrmdn14/workspace/public-workspace/collection/19288796-28c37900-ebe4-45e1-a36a-5622c17de1e5?action=share&source=collection_link&creator=19288796"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "getAllProduct",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local-v1}}/products",
+							"host": [
+								"{{local-v1}}"
+							],
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product-Category",
+			"item": [
+				{
+					"name": "getAllProductCategory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local-v1}}/product-categories",
+							"host": [
+								"{{local-v1}}"
+							],
+							"path": [
+								"product-categories"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transactions",
+			"item": [
+				{
+					"name": "getAllTransactions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{local-v1}}/transactions",
+							"host": [
+								"{{local-v1}}"
+							],
+							"path": [
+								"transactions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "healthCheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
